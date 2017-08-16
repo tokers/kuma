@@ -8,6 +8,7 @@
 #include "kuma_time.h"
 #include "kuma_size_balanced_tree.h"
 #include "kuma_palloc.h"
+#include "kuma_memopt.h"
 
 
 #define KUMA_INT32_LEN sizeof("-2147483648") - 1

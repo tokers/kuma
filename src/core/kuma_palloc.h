@@ -30,10 +30,6 @@ typedef struct {
 } kuma_pool_t;
 
 
-#define kuma_align(d, a) ((d + (a - 1)) & ~(a - 1))
-
-
-
 kuma_pool_t *kuma_create_pool(int num);
 void kuma_destroy_pool(kuma_pool_t *p);
 void *kuma_palloc(kuma_pool_t *p, size_t size);

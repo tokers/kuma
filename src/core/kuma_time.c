@@ -13,7 +13,7 @@ kuma_update_time()
 
     struct timeval tv;
 
-    gettimeofday(&tv, NULL);
+    kuma_gettimeofday(&tv, NULL);
 }
 
 
